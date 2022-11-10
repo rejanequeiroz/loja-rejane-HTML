@@ -3,8 +3,8 @@
     text-size-adjust: titulo;
 }
 
-.text- arial{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.text-arial{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .img-slogan{
@@ -31,5 +31,43 @@
     color: rgb(118, 59, 87);
 }
 body{
-    background-color: rgb(46, 160, 160);
+    background-color: #2ea0a0;
+}
+.container { /* para deixar a imagem e o texto um do lado do outro*/
+    display: flex;
+    align-items: center; /* para deixar alinhado os itens do lado */
+    justify-content: center; /* para centralizar o item em baixo*/
+    flex-flow: row wrap;
+}
+
+.p-30{ /* para  deixa longe da borda dos cantos*/
+    padding: 30px;
+}
+
+.p-20{ /* para  deixa longe da borda dos cantos*/
+    padding: 20px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.p-mw {
+    max-width: 500px; /* largura do texto se vai ser menor ou maior */
+}
+.tm-icon {
+    height: 50px; /* para dimunior ou aumentar o tamanho dos icones do face e outros */
+    width: auto;
+}
+.form.flex{
+    display: flex; /* para indicar o q o conteudo vai estar detro de uma flexbox*/
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.mb-10{ /* para da espaço para cada botao*/
+    margin-bottom: 10px;
+}
+.tm-button {/* para mudar o tamanho do botao*/
+    width: fit-content;
+    height: fit-content;
 }
