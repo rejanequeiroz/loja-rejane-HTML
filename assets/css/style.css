@@ -30,7 +30,7 @@
 .menu a:hover{
     color: rgb(118, 59, 87);
 }
-body{
+.body{
     background-color: #2ea0a0;
 }
 .container { /* para deixar a imagem e o texto um do lado do outro*/
@@ -70,4 +70,7 @@ body{
 .tm-button {/* para mudar o tamanho do botao*/
     width: fit-content;
     height: fit-content;
+}
+.text-color{
+    color: red;
 }
